@@ -174,7 +174,7 @@ class Ui_AppWindow(object):
         # Show image
         img.show()
         # Save image
-        img.save(r"C:\Users\Olcia\Desktop\test_img\test.png")
+        img.save(r"Enter your save path")
 
     def retranslateUi(self, AppWindow):
         _translate = QtCore.QCoreApplication.translate
@@ -183,7 +183,7 @@ class Ui_AppWindow(object):
         self.ChooseImage.setPlaceholderText("Input image path, Example : C:/Users/... ")
         self.ChooseWatermarkType.setItemText(0, _translate("AppWindow", "Image"))
         self.ChooseWatermarkType.setItemText(1, _translate("AppWindow", "Inscription"))
-        self.Image_Inscription.setPlaceholderText("Input watermark-image path / Write Inscription")
+        self.Image_Inscription.setPlaceholderText("Write Inscription")
         self.InputPosition.setPlaceholderText("Input position, Example : 20,40 ")
         self.InputColor.setPlaceholderText("Input, Example : 20,40,60 ")
         self.pushButton.setText(_translate("AppWindow", "Create"))
